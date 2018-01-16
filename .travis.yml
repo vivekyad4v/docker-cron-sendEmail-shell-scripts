@@ -1,0 +1,16 @@
+sudo: required
+
+language: shell
+
+services:
+  - docker
+
+install:
+  - echo "install nothing!"
+
+script:
+  - docker build -t cron-sendemail .
+
+after_success:
+  - echo "docker build image successful!"
+

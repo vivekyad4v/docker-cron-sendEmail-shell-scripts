@@ -1,4 +1,4 @@
-[![LinkedIn](https://github.com/vivekyad4v/public-images/raw/master/generic/LinkedIn-vivekyad4v.png)](https://www.linkedin.com/in/vivekyad4v/)       &nbsp;   &nbsp;      [![Github](https://github.com/vivekyad4v/public-images/raw/master/generic/github.png)](https://github.com/vivekyad4v/docker-cron-sendEmail-shell-scripts)    &nbsp;   &nbsp;   [![Build Status](https://travis-ci.org/vivekyad4v/docker-cron-sendEmail-shell-scripts.svg?branch=master)](https://travis-ci.org/vivekyad4v/docker-cron-sendEmail-shell-scripts)
+[![LinkedIn](https://github.com/vivekyad4v/public-images/raw/master/generic/LinkedIn-vivekyad4v.png)](https://www.linkedin.com/in/vivekyad4v/)  &nbsp;   &nbsp;   [![Build Status](https://travis-ci.org/vivekyad4v/docker-cron-sendEmail-shell-scripts.svg?branch=master)](https://travis-ci.org/vivekyad4v/docker-cron-sendEmail-shell-scripts)
 
 # docker-cron-sendEmail-shell-scripts
 Run shell scripts as Cronjobs in single Docker container, Optionally use sendEmail to send emails. You can define multiple shell scripts & crontabs. This supports both `sh` & `bash` shell.

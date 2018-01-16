@@ -1,8 +1,9 @@
 [![LinkedIn](https://github.com/vivekyad4v/public-images/raw/master/generic/LinkedIn-vivekyad4v.png)](https://www.linkedin.com/in/vivekyad4v/)
 
 # docker-cron-sendEmail-shell-scripts
-Run shell scripts as Cron job in Docker, Optionally use sendEmail to send emails. You can define multiple shell scripts & crontabs.
+Run shell scripts as Cronjobs in single Docker container, Optionally use sendEmail to send emails. You can define multiple shell scripts & crontabs. This supports both `sh` & `bash` shell.
 
+##### Tech Stack - Alpine, Docker, Docker-compose
 <a href="https://github.com/vivekyad4v?tab=followers"><img align="right" width="200" height="183" src="https://s3.amazonaws.com/github/ribbons/forkme_left_green_007200.png" /></a>
 
 ### Put your scripts (scripts/)
@@ -53,4 +54,4 @@ $ sendEmail -u $SUBJECT_EMAIL -m $CONTENT_EMAIL -f $FROM_EMAIL -t $TO_EMAIL -s $
 
 ToDo - Improving sendEmail usage.
 
-If this helps, Fork OR Star it :)
+If this helps, Fork & Star it :)

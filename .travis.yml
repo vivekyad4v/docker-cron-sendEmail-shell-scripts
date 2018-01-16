@@ -11,6 +11,7 @@ install:
 script:
   - docker build -t cron-sendemail .
   - docker tag cron-sendemail:latest vivekyad4v/docker-cron-sendemail-shell-scripts:latest
+  - docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD" https://index.docker.io/v1/
   - docker push vivekyad4v/docker-cron-sendemail-shell-scripts:latest
 
 after_success:

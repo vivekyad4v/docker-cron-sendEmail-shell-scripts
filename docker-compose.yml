@@ -1,0 +1,11 @@
+version: '3.2'
+
+services:
+  crond:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: cron-sendemail:latest
+    hostname: cron-sendemail
+    restart: always
+

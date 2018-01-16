@@ -10,7 +10,9 @@ install:
 
 script:
   - docker build -t cron-sendemail .
+  - docker tag cron-sendemail:latest vivekyad4v/docker-cron-sendemail-shell-scripts:latest
+  - docker push vivekyad4v/docker-cron-sendemail-shell-scripts:latest
 
 after_success:
-  - echo "docker build image successful!"
+  - echo "docker build & push image successful!"
 

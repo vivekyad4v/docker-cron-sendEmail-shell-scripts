@@ -28,9 +28,9 @@ $ docker run --name cron-sendemail --restart always -dt cron-sendemail
 $ docker-compose build
 $ docker-compose up -d
 ```
-### Logs - Whatever you/script write to `/var/log/cron.log` will get redirected to your container logs 
+### Logs - Whatever you/script write to "/var/log/cron.log" will get redirected to your container logs 
 ```sh
-$ docker cron-sendemail 
+$ docker logs cron-sendemail 
 
 crond: crond (busybox 1.27.2) started, log level 8
 crond: USER root pid   7 cmd /sh-script.sh >> /var/log/cron.log

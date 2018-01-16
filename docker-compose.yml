@@ -7,5 +7,6 @@ services:
       dockerfile: ./Dockerfile
     image: cron-sendemail:latest
     hostname: cron-sendemail
+    container_name: cron-sendemail
     restart: always
 
